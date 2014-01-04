@@ -1,0 +1,322 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2em;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+/* begin mjbgolfdesign styles */
+
+* {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html {
+	font-family:Tahoma, Helvetica, Arial, sans-serif;
+	font-weight:300;
+	background-color:white;
+}
+
+/* Header Area */
+
+.headWrap {
+	width:960px;
+	background-color:white;
+	background-image:url(../images/header.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:200px;
+	margin:0 auto;
+	position:relative;
+}
+
+	/* NavBar Styles */
+	
+	.nav {
+		list-style:none;
+		margin:0;
+		padding:0;
+		position:absolute;
+		top:161px;
+		left:34px;
+	}
+	.nav li {
+		display:inline;
+		text-align:center;
+		margin-left:-5px;
+	}
+	.nav li a {
+		display:inline-block;
+		width:105px;
+		padding:10px 0;
+		text-decoration:none;
+		color:white;
+		background-color:black;
+	}
+	.nav li a:hover, .homeBody .homeLink, .companyBody .companyLink,
+	.designBody .designLink, .creativityBody .creativityLink,
+	.resourcesBody .resourcesLink, .contactBody .contactLink {
+		background-color:#555;
+	}
+	
+	.dropdown, .dropdown_2 {
+		display:inline;
+		position:relative;
+	}
+	.nav li ul {
+		display:none;
+	}
+	.dropdown li:hover ul, .dropdown_2 li:hover ul {
+		display:block;
+		position:absolute;
+		top:29px;
+		left:0px;
+		margin:0;
+		padding:0;
+		width:150px;
+		background-color:transparent;
+		z-index:10000;
+	}
+	.nav li li {
+		background-color:transparent;
+	}
+	.nav li li a {
+		background:rgba(255,255,255,.8);
+		color:black;
+		border:none;
+		width:100%;
+		text-align:left;
+		padding:10px 10px;
+		border-right:1px solid black;
+		border-left:1px solid black;
+	}
+	.nav li li a:hover {
+		background:black;
+		color:white;
+	}
+	.nav li:hover li {
+		float:none;
+		display:block;
+	}
+	.dropLast {
+		border-radius: 0 0 10px 10px;
+		border:1px solid black;
+		border-top:none;
+	}
+	
+	/* SocialBar Styles */
+	
+	.social {
+		position:absolute;
+		top:149px;
+		left:700px;
+	}
+	.social td {
+		text-align:left;
+		font-size:.75em;
+		width:90px;
+		padding:2px 0;
+		padding-left:24px;
+	}
+	.social td a {
+		text-decoration:none;
+		color:black;
+	}
+	.facebook {
+		background-image:url(../images/facebook.png);
+		background-position:center left;
+		background-repeat:no-repeat;
+	}
+	.twitter {
+		background-image:url(../images/twitter.png);
+		background-position:center left;
+		background-repeat:no-repeat;
+	}
+	.linkedin {
+		background-image:url(../images/linkedin.png);
+		background-position:center left;
+		background-repeat:no-repeat;
+	}
+	.blogger {
+		background-image:url(../images/blogger.png);
+		background-position:center left;
+		background-repeat:no-repeat;
+	}
+
+/* SlideShow Area Styles */
+
+.slideWrap {
+	width:960px;
+	min-height:515px;
+	margin:0 auto;
+	background-color:black;
+	position:relative;
+}
+.previous {
+	position:absolute;
+	width:60px;
+	height:60px;
+	top:220px;
+	left:20px;
+	background-image:url(../images/arrowleft.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	z-index:10;
+}
+.previous:hover {
+	background-image:url(../images/arrowleft_highlighted.png);
+}
+.next:hover {
+	background-image:url(../images/arrowright_highlighted.png);
+}
+.next {
+	position:absolute;
+	width:60px;
+	height:60px;
+	top:220px;
+	left:880px;
+	background-image:url(../images/arrowright.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	z-index:10;
+}
+.slide {
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+}
+
+	/* Info Tab Styles */
+	
+	/*.info {
+		width:960px;
+		height:78px;
+		background-color:transparent;
+		position:absolute;
+		top:437px;
+		left:0;
+	}
+	.infoList {
+		list-style:none;
+		padding:0;
+		margin:0;
+	}
+	.infoList li {
+		display:inline;
+		text-align:center;
+		margin-left:-5px;
+	}
+	.infoList li.tFirst {
+		margin-left:0;
+	}
+	.infoTab div {
+		display:inline-block;
+		width:192px;
+		height:78px;
+		padding-top:10px;
+		background-color:rgba(255,255,255,0.8);
+	}
+	.tActive div {
+		color:white;
+		background-color:transparent;!important
+	} */
+
+/* Content Area Style */
+
+.contentWrap {
+	width:960px;
+	margin:0 auto;
+	padding:20px 0;
+	border-top:3px solid black;
+}
+.contentWrap .intro {
+	font-size:.75em;
+	padding:0 130px;
+	line-height:115%;
+}
+.contentWrap .intro p {
+	margin-bottom:10px;
+}
+
+/* Footer Area Styles */
+
+.footWrap {
+	width:960px;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+	/* ASGCA styles */
+	
+	.asgca {
+		float:left;
+		text-align:center;
+		font-size:.75em;
+	}
+	
+	/* Address Styles */
+	
+	.address {
+		padding:20px 0 0 0;
+		float:right;
+		text-align:right;
+		font-size:.9em;
+		line-height:115%;
+	}
+	
+	/* Sitemap styles */
+	
+	.sitemap {
+		clear:both;
+		padding:40px 0;
+		margin:0 auto;
+		width:600px;
+	}
+	.sitemap ul {
+		list-style:none;
+		padding:0;
+		margin:0;
+		text-align:center;
+	}
+	.sitemap li {
+		display:inline;
+		text-align:center;
+	}
+	.sitemap li a {
+		font-size:.75em;
+		display:inline-block;
+		text-decoration:none;
+		width:auto;
+		margin:5px 20px 0 20px;
+		color:black;
+	}
+
+
+
+
