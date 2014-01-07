@@ -1,0 +1,73 @@
+/* Creativity Page Styles */
+
+.panelWrap div {
+	width:240px;
+	height:513px;
+	display:inline-block;
+	border: 1px solid black;
+	margin:0;
+	text-align:center;
+	padding-top:450px;
+	font-family: "Brush Script MT", cursive;
+	font-size:2.3em;
+}
+.panelWrap .panel_02, .panelWrap .panel_03, .panelWrap .panel_04 {
+	margin-left:-5px;
+	border-left:none;
+}
+.panel_01 {
+	background-image:url(../images/creativity/panel01_bw.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.panel_02 {
+	background-image:url(../images/creativity/panel02_bw.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.panel_03 {
+	background-image:url(../images/creativity/panel03_bw.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.panel_04 {
+	background-image:url(../images/creativity/panel04_bw.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.panel_01:hover {
+	background-image:url(../images/creativity/panel01.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.panel_02:hover {
+	background-image:url(../images/creativity/panel02.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.panel_03:hover {
+	background-image:url(../images/creativity/panel03.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.panel_04:hover {
+	background-image:url(../images/creativity/panel04.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.panelWrap div p {
+	text-decoration:none;
+	text-align:center;
+	color:white;
+}
+.panelWrap div:hover p {
+	color:black;
+}
+.contentWrap .intro p {
+	margin-bottom:20px;
+}
+.contentWrap .intro {
+	margin:0 auto;
+	padding:0;
+	width:500px;
+}
