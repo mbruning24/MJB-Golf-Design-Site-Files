@@ -9,10 +9,13 @@
 <link rel="stylesheet" href="css/styles.css" />
 <link rel="stylesheet" href="css/design_styles.css" />
 <style>
-
+.nav li li a {
+	background:rgba(255,255,255,.9);
+}
 </style>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+<script src="js/design.js"></script>
 <script>
 
 </script>
@@ -58,25 +61,94 @@
 </div>
 
 <div class="contentWrap">
-	<div class="intro">
-		<p>You never find two golf courses that are the same, therefore not all golf projects are the same.  
-		Whether your course is public, private, or resort, my experiences in each have allowed me to 
-		cater my plans to fit your needs.   Take a look at the projects below and see how each project 
-		becomes successful in its own way.</p>
+	<div class="thumbnailDisclaimer">
+		<p>Click on a thumbnail to view a larger picture and some information on that particular project.</p>
 	</div>
-	<div class="panelWrap">
-		<a href="public_courses.html"><div class="panel_01">
-			<p>Public Courses</p>
-		</div></a>
-		<a href="private_courses.html"><div class="panel_02">
-			<p>Private Courses</p>
-		</div></a>
-		<a href="resort_courses.html"><div class="panel_03">
-			<p>Resort Courses</p>
-		</div></a>
-		<a href="design_process.html"><div class="panel_04">
-			<p>Design Process</p>
-		</div></a>
+
+	<div class="thumbnails">
+		<div class="tn_01"></div>
+		<div class="tn_02"></div>
+		<div class="tn_03"></div>
+		<div class="tn_04"></div>
+		<div class="tn_05"></div>
+		<div class="tn_06"></div>
+	</div>
+	<div class="courses">
+		<h1>Public Courses</h1>
+		<table>
+			<tr>
+				<td><div class="courseInfo"><h3>Brae Loch Golf Course*</h3><p>Grayslake, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Jester Park Golf Course*</h3><p>Granger, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Trappers Turn Golf Course</h3><p>Wisconsin Dells, WI</p></div></td>
+			</tr>
+			<tr>
+				<td><div class="courseInfo"><h3>Countryside Golf Course*</h3><p>Mundelien, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Lakeland HIlls Golf Course</h3><p>Lodi, WI</p></div></td>
+				<td><div class="courseInfo"><h3>Veenker Memorial Golf Course*</h3><p>Ames, IA</p></div></td>
+			</tr>
+			<tr>
+				<td><div class="courseInfo"><h3>Ft. Sheridan*</h3><p>Ft. Sheridan, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Pinecrest Golf Course*</h3><p>Huntley, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Waveland Golf Course*</h3><p>Des Moines, IA</p></div></td>
+			</tr>
+			<tr>
+				<td><div class="courseInfo"><h3>Ironhorse Golf Course</h3><p>Tuscola, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Red Tail Golf Course*</h3><p>Lakewood, IL</p></div></td>
+				<td><div class="courseInfo"><h3>West Chicago Park District*</h3><p>West Chicago, IL</p></div></td>
+			</tr>
+		</table>
+		<h1>Private Courses</h1>
+		<table>
+			<tr>
+				<td><div class="courseInfo"><h3>Bloomington Country Club</h3><p>Bloomington, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Hawthorn Woods Country Club</h3><p>Hawthorn Woods, IL</p></div></td>
+				<td><div class="courseInfo"><h3>McHenry Country Club</h3><p>McHenry, IL</p></div></td>
+			</tr>
+			<tr>
+				<td><div class="courseInfo"><h3>Canyata Golf Club</h3><p>Marshall, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Illini Country Club</h3><p>Springfield, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Merrill Hills Country Club</h3><p>Waukesha, WI</p></div></td>
+			</tr>
+			<tr>
+				<td><div class="courseInfo"><h3>Country Club of Peoria</h3><p>Peoria Heights, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Itasca Country Club</h3><p>Itasca, IL</p></div></td>
+				<td><div class="courseInfo"><h3>St. Charles Country Club</h3><p>St. Charles, IL</p></div></td>
+			</tr>
+		</table>
+		<h1>Resort Courses</h1>
+		<table>
+			<tr>
+				<td><div class="courseInfo"><h3>The National at Eagle Creek</h3><p>Findlay, IL</p></div></td>
+				<td><div class="courseInfo"><h3>Pheasant Run Resort</h3><p>St. Charles, IL</p></div></td>
+			</tr>
+			<tr>
+				<td><div class="courseInfo"><h3>Garland Resort</h3><p>Lewiston, MI</p></div></td>
+				<td><div class="courseInfo"><h3>Sunrise Pointe Golf Course*</h3><p>Storm Lake, IA</p></div></td>
+			</tr>
+		</table>
+		<p style="font-weight:200;">*Indicates Courses owned by a public entity.</p>
+	</div>
+</div>
+
+<div class="cover dontShow"></div>
+
+<div class="photoWrap dontShow">
+	<div class="titleBar">
+		<p class="title"></p>
+		<p class="subtitle"></p>
+	</div>
+	<div class="arrow_left"></div>
+	<div class="arrow_right"></div>
+	<div class="d_slides">
+		<img class="s01 d_slide d_first" style="opacity:1.0;" src="images/new_design/lg_01.png">
+		<img class="s02 d_slide" src="images/new_design/lg_02.png">
+		<img class="s03 d_slide" src="images/new_design/lg_03.png">
+		<img class="s04 d_slide" src="images/new_design/lg_04.png">
+		<img class="s05 d_slide" src="images/new_design/lg_05.png">
+		<img class="s06 d_slide d_last" src="images/new_design/lg_06.png">
+	</div>
+	<div class="infoRollover">
+		<p class="info">Rollover to See More Information...</p>
 	</div>
 </div>
 

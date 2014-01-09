@@ -60,9 +60,9 @@
 	text-align:center;
 	color:white;
 }
-.panelWrap div:hover p {
+/*.panelWrap div:hover p {
 	color:black;
-}
+}*/
 .contentWrap .intro p {
 	margin-bottom:20px;
 }
