@@ -178,3 +178,22 @@
 	line-height:100%;
 	font-size:2.4em;
 }
+
+.tn_title {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.tn_title li {
+	display:inline-block;
+	font-size:.8em;
+	margin-left:-5px;
+	width:160px;
+	padding:0 10px;
+}
+.tn_title li:first-child {
+	margin-left:0;
+}
+.tn_title li h3 {
+	line-height:110%;
+}
