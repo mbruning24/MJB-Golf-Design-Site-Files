@@ -1,5 +1,9 @@
 /* Creativity Page Styles */
 
+.panelWrap {
+	width:720px;
+	margin:0 auto;
+}
 .panelWrap div {
 	width:240px;
 	height:513px;
@@ -11,7 +15,7 @@
 	font-family: "Brush Script MT", cursive;
 	font-size:2.3em;
 }
-.panelWrap .panel_02, .panelWrap .panel_03, .panelWrap .panel_04 {
+.panelWrap .panel_02, .panelWrap .panel_03 {
 	margin-left:-5px;
 	border-left:none;
 }
@@ -30,11 +34,6 @@
 	background-position:center center;
 	background-repeat:no-repeat;
 }
-.panel_04 {
-	background-image:url(../images/creativity/panel04_bw.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-}
 .panel_01:hover {
 	background-image:url(../images/creativity/panel01.png);
 	background-position:center center;
@@ -47,11 +46,6 @@
 }
 .panel_03:hover {
 	background-image:url(../images/creativity/panel03.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-}
-.panel_04:hover {
-	background-image:url(../images/creativity/panel04.png);
 	background-position:center center;
 	background-repeat:no-repeat;
 }
@@ -70,4 +64,5 @@
 	margin:0 auto;
 	padding:0;
 	width:500px;
+	text-align:center;
 }

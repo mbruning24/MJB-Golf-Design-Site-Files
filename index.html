@@ -6,13 +6,14 @@
 
 <title>MJB Golf Design | Home</title>
 
-<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/index_styles.css" />
 <style>
 
 </style>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="js/bkgd_slide.js"></script>
+<script src="js/navslider.js"></script>
 <script>
 
 </script>
@@ -20,92 +21,66 @@
 </head>
 <body class="homeBody">
 
+<div class="slideWrap">
+	<div class="slides">
+		<img class="slide first active" style="opacity:1" src="images/slides/canyata_big_fade.png" />
+		<img class="slide" src="images/slides/jester_park_big.png" />
+		<img class="slide" src="images/slides/canyata_15.png" />
+		<img class="slide" src="images/slides/national_big.png" />
+		<img class="slide" src="images/slides/canyata_12.png" />
+		<img class="slide" src="images/slides/garland.png" />
+		<img class="slide last" src="images/slides/st_charles_big.png" />
+	</div>
+</div>
+
+<div class="buttons">
+	<a class="01 b f a" href=""></a>
+	<a class="02 b" href=""></a>
+	<a class="03 b" href=""></a>
+	<a class="04 b" href=""></a>
+	<a class="05 b" href=""></a>
+	<a class="06 b" href=""></a>
+	<a class="07 b l" href=""></a>
+</div>
+
 <div class="headWrap">
+	<a href="index.html"><div class="logo"></div></a>
 	<div class="navWrap">
-		<ul class="nav">
+		<ul class="navLeft">
 			<li><a class="homeLink" href="index.html">Home</a></li>
 			<li><a class="companyLink" href="company.html">Company</a></li>
-			<div class="dropdown"><li><a class="designLink" href="design.html">Design</a>
-			<ul>
-				<li><a href="design_process.html">Design Process</a></li>
-				<li><a class="dropLast" href="design_thoughts.html">Design Thoughts</a></li>
-			</ul></li></div>
-			<div class="dropdown_2"><li><a class="creativityLink" href="creativity.html">Creativity</a>
-			<ul>
-				<li><a href="classic_design.html">Classic Design</a></li>
-				<li><a href="bunker_design.html">Bunker Design</a></li>
-				<li><a class="dropLast" href="green_design.html">Green Design</a></li>
-			</ul></li></div>
+			<div class="d1"><li><a class="designLink" href="design.html">Design</a>
+				<ul class="drop1 dontshow">
+					<div class="s1"><li id="d"><a href="design.html">Courses</a>
+						<ul class="dontshow">
+							<li><a href="canyata.html">Canyata Golf Club</a></li>
+							<li><a href="cc_peoria.html">Country Club of Peoria</a></li>
+							<li><a href="national.html">The National at Eagle Creek</a></li>
+							<li><a href="garland.html">Garland Resort</a></li>
+							<li><a href="jester_park.html">Jester Park Golf Course</a></li>
+							<li><a href="st_charles.html">St. Charles Country Club</a></li>
+						</ul>
+					</li></div>
+					<li><a href="design_process.html">Process</a></li>
+					<li><a href="design_thoughts.html">Thoughts</a></li>
+				</ul>
+			</li></div>
+		</ul>
+		<ul class="navRight">
+			<div class="d2"><li><a class="creativityLink" href="creativity.html">Creativity</a>
+				<ul class="drop2 dontshow">
+					<li><a href="classic_design.html">Classic Design</a></li>
+					<li><a href="bunker_design.html">Bunker Design</a></li>
+					<li><a href="green_design.html">Green Design</a></li>
+				</ul>
+			</li></div>
 			<li><a class="resourcesLink" href="resources.html">Resources</a></li>
 			<li><a class="contactLink" href="contact.html">Contact</a></li>
 		</ul>
 	</div>
-	<div class="socialWrap">
-		<table class="social">
-			<tr>
-				<td class="facebook"><a href="index.html">Facebook</a></td>
-				<td class="twitter"><a href="index.html">Twitter</a></td>
-			</tr>
-			<tr>
-				<td class="linkedin"><a href="index.html">LinkedIn</a></td>
-				<td class="blogger"><a href="index.html">Blogger</a></td>
-			</tr>
-		</table>
-	</div>
 </div>
 
-<div class="slideWrap">
-	<div class="previous"></div>
-	<div class="next"></div>
-	<div class="slides">
-		<img class="slide first active" style="opacity:1.0" src="images/Canyata_4.png" />
-		<img class="slide" src="images/CC_Peoria_6.png" />
-		<img class="slide" src="images/Eagle_Creek_18.png" />
-		<img class="slide" src="images/Jester_12.png" />
-		<img class="slide last" src="images/St_Charles_5_Quarry.png" />
-	</div>
-	<div class="info">
-		<!-- <ul class="infoList">
-			<li class="infoTab tFirst tActive">
-				<div>
-				<p class="courseName"><strong>Golf Course</strong></p>
-				<p class="holeNumber">Hole X</p>
-				<p class="courseLocation">Somewhere, IL</p>
-				</div>
-			</li>
-			<li class="infoTab">
-				<div>
-				<p class="courseName"><strong>Golf Course</strong></p>
-				<p class="holeNumber">Hole X</p>
-				<p class="courseLocation">Somewhere, WI</p>
-				</div>
-			</li>
-			<li class="infoTab">
-				<div>
-				<p class="courseName"><strong>Golf Course</strong></p>
-				<p class="holeNumber">Hole X</p>
-				<p class="courseLocation">Somewhere, IA</p>
-				</div>
-			</li>
-			<li class="infoTab">
-				<div>
-				<p class="courseName"><strong>Golf Course</strong></p>
-				<p class="holeNumber">Hole X</p>
-				<p class="courseLocation">Somewhere, MI</p>
-				</div>
-			</li>
-			<li class="infoTab tLast">
-				<div>
-				<p class="courseName"><strong>Golf Course</strong></p>
-				<p class="holeNumber">Hole X</p>
-				<p class="courseLocation">Somewhere, IN</p>
-				</div>
-			</li>
-		</ul> -->
-	</div>
-</div>
-
-<div class="contentWrap" style="border-top:3px solid black;">
+<div class="contentWrap">
 	<div class="intro">
 		<p>Golf course design is just as much about art as it passion for the game. I have been involved in the game of golf for over 30 years. 
 		I grew up on the golf course and I love the game. Golf has evolved a great deal over time, and the way we design golf courses has also evolved. 

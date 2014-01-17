@@ -1,0 +1,277 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2em;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+/* Alternate styles for mjbgolfdesign.com */
+
+* {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	background-color:black;
+}
+
+/* Slide Styles */
+
+.slideWrap {
+	min-width:960px;
+	height:1000px;
+	margin:0 auto;
+	position:relative;
+	overflow-x:hidden;
+}
+.slide {
+	width:2000px;
+	height:1000px;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-1000px;
+	opacity:0;
+}
+
+/* Button Styles */
+
+.buttons {
+	position:absolute;
+	width:140px;
+	left:50%;
+	margin-left:-70px;
+	top:586px;
+	z-index:15;
+}
+.buttons a {
+	display:inline-block;
+	margin-left:-5px;
+	width:20px;
+	height:20px;
+	background-image:url(../images/button.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.buttons a:first-child {
+	margin-left:0;
+	background-image:url(../images/button_hover.png);
+}
+
+/* Header and Nav Styles */
+
+.headWrap {
+	width:1200px;
+	min-width:1200px;
+	height:160px;
+	background:transparent;
+	margin:0 auto;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-600px;
+}
+.logo {
+	position:absolute;
+	top:0;
+	left:50%;
+	margin:10px 0 0 -150px;
+	width:300px;
+	height:150px;
+	background-image:url(../images/logo_head.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.navLeft, .navRight {
+	width:400px;
+}
+.navWrap ul li {
+	display:inline-block;
+	width:130px;
+	line-height:40px;
+	text-align:center;
+}
+.d1, .d2 {
+	display:inline-block;
+	width:130px;
+	line-height:40px;
+	text-align:center;
+}
+.navWrap ul {
+	margin:0;
+	padding:0;
+}
+ul.navLeft {
+	position:absolute;
+	top:40px;
+	left:50%;
+	margin-left:-450px;
+}
+ul.navRight {
+	position:absolute;
+	top:40px;
+	left:50%;
+	margin-left:50px;
+}
+.navWrap ul ul, .navWrap ul ul ul {
+	display:none;
+}
+.navWrap ul ul li {
+	display:block;
+}
+.navWrap a {
+	text-decoration:none;
+	color:black;
+}
+.drop1, .drop2 {
+	position:absolute;
+}
+.navLeft .d1 .s1 ul {
+	position:absolute;
+	top:0;
+	left:100%;
+}
+.navLeft .d1 .s1 ul li {
+	width:215px;
+	text-align:left;
+	padding-left:10px;
+}
+.navLeft .d1 ul li:hover, .navLeft .d1 .s1 ul li:hover, .navRight .d2 ul li:hover {
+	box-shadow:2px 2px 4px rgba(0,0,0,.3), -2px -2px 4px rgba(0,0,0,.3);
+}
+.navLeft .d1 ul, .navRight .d2 ul {
+	border-left:1px solid black;
+	border-right:1px solid black;
+	background-color:rgba(255,255,255,.9);
+	box-shadow:2px 0 4px rgba(0,0,0,.5), -2px 0 4px rgba(0,0,0,.5);
+}
+.s1 ul, .drop1, .drop2, .s1 ul li:last-child, .drop1 li:last-child, .drop2 li:last-child {
+	border-radius:0 0 10px 10px;
+}
+.drop1 #d {
+	border-radius:0;
+}
+
+/* Content Wrap Styles */
+
+.contentWrap {
+	color:white;
+	position:absolute;
+	left:50%;
+	width:1200px;
+	margin-left:-600px;
+	background-color:rgba(0,0,0,.5);
+	border-radius:10px 10px 0 0;
+	top:626px;
+	height:151px;
+	margin-bottom:0;
+	padding:20px 0;
+}
+.contentWrap .intro {
+	font-size:.75em;
+	padding:0 130px;
+	line-height:115%;
+}
+.contentWrap .intro p {
+	margin-bottom:10px;
+}
+
+/* Footer Styles */
+
+.footWrap {
+	width:1200px;
+	margin:20px auto;
+	padding:40px 0;
+	color:white;
+	background-color:rgba(0,0,0,.5);!important
+	border:1px solid white;
+	position:absolute;
+	top:777px;
+	left:50%;
+	margin-left:-600px;
+	margin-top:0;
+}
+
+	/* ASGCA styles */
+	
+	.footWrap .asgca {
+		float:left;
+		text-align:center;
+		font-size:.75em;
+		width:300px;
+	}
+	.footWrap .asgca p {
+		width:150px;
+		margin:0 auto;
+	}
+	
+	/* Address Styles */
+	
+	.footWrap .address {
+		padding:20px 0 0 0;
+		float:right;
+		text-align:right;
+		font-size:.9em;
+		line-height:115%;
+		width:300px;
+	}
+	.footWrap .address p {
+		width:180px;
+		margin:0 auto;
+	}
+	
+	/* Sitemap styles */
+	
+	.footWrap .sitemap {
+		clear:none;
+		padding:40px 0;
+		margin:0 auto;
+		width:600px;
+	}
+	.footWrap .sitemap ul {
+		list-style:none;
+		padding:0;
+		margin:0;
+		text-align:center;
+	}
+	.footWrap .sitemap li {
+		display:inline;
+		text-align:center;
+	}
+	.footWrap .sitemap li a {
+		font-size:.75em;
+		display:inline-block;
+		text-decoration:none;
+		width:auto;
+		margin:0 20px;
+		color:white;
+	}
+
+

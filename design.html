@@ -4,18 +4,16 @@
 
 <!-- META INFO HERE -->
 
-<title>MJB Golf Design | Design</title>
+<title>MJB Golf Design | Courses</title>
 
 <link rel="stylesheet" href="css/styles.css" />
 <link rel="stylesheet" href="css/design_styles.css" />
 <style>
-.nav li li a {
-	background:rgba(255,255,255,.9);
-}
+
 </style>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
-<script src="js/design.js"></script>
+<script src="js/navslider.js"></script>
 <script>
 
 </script>
@@ -24,58 +22,61 @@
 <body class="designBody">
 
 <div class="headWrap">
+	<a href="index.html"><div class="logo"></div></a>
 	<div class="navWrap">
-		<ul class="nav">
+		<ul class="navLeft">
 			<li><a class="homeLink" href="index.html">Home</a></li>
 			<li><a class="companyLink" href="company.html">Company</a></li>
-			<div class="dropdown"><li><a class="designLink" href="design.html">Design</a>
-			<ul>
-				<li><a href="design_process.html">Design Process</a></li>
-				<li><a class="dropLast" href="design_thoughts.html">Design Thoughts</a></li>
-			</ul></li></div>
-			<div class="dropdown_2"><li><a class="creativityLink" href="creativity.html">Creativity</a>
-			<ul>
-				<li><a href="classic_design.html">Classic Design</a></li>
-				<li><a href="bunker_design.html">Bunker Design</a></li>
-				<li><a class="dropLast" href="green_design.html">Green Design</a></li>
-			</ul></li></div>
+			<div class="d1"><li><a class="designLink" href="design.html">Design</a>
+				<ul class="drop1">
+					<div class="s1"><li id="d"><a href="design.html">Courses</a>
+						<ul>
+							<li><a href="canyata.html">Canyata Golf Club</a></li>
+							<li><a href="cc_peoria.html">Country Club of Peoria</a></li>
+							<li><a href="national.html">The National at Eagle Creek</a></li>
+							<li><a href="garland.html">Garland Resort</a></li>
+							<li><a href="jester_park.html">Jester Park Golf Course</a></li>
+							<li><a href="st_charles.html">St. Charles Country Club</a></li>
+						</ul>
+					</li></div>
+					<li><a href="design_process.html">Process</a></li>
+					<li><a href="design_thoughts.html">Thoughts</a></li>
+				</ul>
+			</li></div>
+		</ul>
+		<ul class="navRight">
+			<div class="d2"><li><a class="creativityLink" href="creativity.html">Creativity</a>
+				<ul class="drop2">
+					<li><a href="classic_design.html">Classic Design</a></li>
+					<li><a href="bunker_design.html">Bunker Design</a></li>
+					<li><a href="green_design.html">Green Design</a></li>
+				</ul>
+			</li></div>
 			<li><a class="resourcesLink" href="resources.html">Resources</a></li>
 			<li><a class="contactLink" href="contact.html">Contact</a></li>
 		</ul>
-	</div>
-	<div class="socialWrap">
-		<table class="social">
-			<tr>
-				<td class="facebook"><a href="index.html">Facebook</a></td>
-				<td class="twitter"><a href="index.html">Twitter</a></td>
-			</tr>
-			<tr>
-				<td class="linkedin"><a href="index.html">LinkedIn</a></td>
-				<td class="blogger"><a href="index.html">Blogger</a></td>
-			</tr>
-		</table>
 	</div>
 </div>
 
 <div class="contentWrap">
 	<div class="thumbnailDisclaimer">
-		<p>Click on a thumbnail to view a larger picture and some information on that particular project.</p>
+		<p>Click on a thumbnail to go to the page for that course</p>
 	</div>
 
 	<div class="thumbnails">
-		<div class="tn_01"></div>
-		<div class="tn_02"></div>
-		<div class="tn_03"></div>
-		<div class="tn_04"></div>
-		<div class="tn_05"></div>
-		<div class="tn_06"></div>
+		<a href="canyata.html"><div class="tn_01"></div></a>
+		<a href="cc_peoria.html"><div class="tn_02"></div></a>
+		<a href="national.html"><div class="tn_03"></div></a>
+		<a href="garland.html"><div class="tn_04"></div></a>
+		<a href="jester_park.html"><div class="tn_05"></div></a>
+		<a href="st_charles.html"><div class="tn_06"></div></a>
 		<ul class="tn_title">
-			<li><h3>Brae Loch Golf Course</h3><p>Grayslake, IL</p></li>
-			<li><h3>Jester Park Golf Course</h3><p>Granger, IL</p></li>
-			<li><h3>Trappers Turn Golf Course</h3><p>Wisconsin Dells, WI</p></li>
-			<li><h3>Countryside Golf Course</h3><p>Mundelien, IL</p></li>
-			<li><h3>Lakeland Hills Golf Course</h3><p>Lodi, WI</p></li>
-			<li><h3>Veenker Memorial Golf Course</h3><p>Ames, IA</p></li>
+			<li><h3>Canyata Golf Club</h3><p>Grayslake, IL</p></li>
+			<li><h3>Country Club of Peoria</h3><p>Granger, IL</p></li>
+			<li><h3>The National at Eagle Creek</h3><p>Wisconsin Dells, WI</p></li>
+			<li><h3>Garland Resort</h3><p>Mundelien, IL</p></li>
+			<li><h3>Jester Park Golf Course</h3><p>Lodi, WI</p></li>
+			<li><h3>St. Charles Country Club</h3><p>Ames, IA</p></li>
 		</ul>
 	</div>
 	<div class="courses">
@@ -132,28 +133,6 @@
 			</tr>
 		</table>
 		<p style="font-weight:200;">*Indicates Courses owned by a public entity.</p>
-	</div>
-</div>
-
-<div class="cover dontShow"></div>
-
-<div class="photoWrap dontShow">
-	<div class="titleBar">
-		<p class="title"></p>
-		<p class="subtitle"></p>
-	</div>
-	<div class="arrow_left"></div>
-	<div class="arrow_right"></div>
-	<div class="d_slides">
-		<img class="s01 d_slide d_first" style="opacity:1.0;" src="images/new_design/lg_01.png">
-		<img class="s02 d_slide" src="images/new_design/lg_02.png">
-		<img class="s03 d_slide" src="images/new_design/lg_03.png">
-		<img class="s04 d_slide" src="images/new_design/lg_04.png">
-		<img class="s05 d_slide" src="images/new_design/lg_05.png">
-		<img class="s06 d_slide d_last" src="images/new_design/lg_06.png">
-	</div>
-	<div class="infoRollover">
-		<p class="info">Rollover to See More Information...</p>
 	</div>
 </div>
 
