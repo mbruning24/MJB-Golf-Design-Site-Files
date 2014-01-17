@@ -34,6 +34,9 @@ $(function() {
 	var interval = setInterval('rotateImage()',6000);
 	
 	$('.buttons a').click(function() {
+		if ($(this).hasClass('a')) {
+			return false;
+		}
 		clearInterval(interval);
 		var current = $('.active');
 		var c = $('a.a');
