@@ -12,25 +12,11 @@
 .contentWrap .img01 {
 	float:right;
 	margin-left:20px;
-	width:340px;
+	width:450px;
 }
 .contentWrap .img01 p {
 	font-size:.8em;
 	text-align:right;
-}
-.contentWrap p:nth-of-type(2) {
-	margin-right:350px;
-}
-.contentWrap .img02 {
-	float:left;
-	margin-right:20px;
-	width:330px;
-}
-.contentWrap p:nth-of-type(5) {
-	margin-left:340px;
-}
-.contentWrap .img02 p {
-	font-size:.8em;
 }
 
 /* Enlarged */
