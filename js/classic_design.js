@@ -70,5 +70,6 @@ function imgClickHandler() {
 		rollText = img01Roll;
 		var imgPath = 'images/classic_design/01_lg.png';
 		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
 	});
 }

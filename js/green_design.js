@@ -71,6 +71,7 @@ function imgClickHandler() {
 		rollText = img01Roll;
 		var imgPath = 'images/green_design/01_lg.png';
 		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
 	});
 	$('.img02 img').click(function() {
 		var title = "Doorknob Creek Country Club",
@@ -78,5 +79,6 @@ function imgClickHandler() {
 		rollText = img02Roll;
 		var imgPath = 'images/green_design/02_lg.png';
 		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
 	});
 }
