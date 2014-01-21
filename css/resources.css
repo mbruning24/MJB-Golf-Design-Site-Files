@@ -8,24 +8,104 @@
 	font-size:1.8em;
 	margin-bottom:20px;
 }
-.contentWrap p, .contentWrap li {
+.contentWrap p {
 	font-size:.85em;
 }
 .contentWrap p {
 	padding:0 30px;
 	margin-bottom:20px;
 }
-.contentWrap li .link {
+.link {
+	margin-left:50px;
 	height:40px;
+	position:relative;
 }
-.contentWrap li .link p {
+.link p, .link img {
+	display:inline-block;
+	vertical-align:middle;
 	margin:0;
 	padding:0;
-	font-size:100%;
-	line-height:40px;
-	display:inline-block;
+	position:absolute;
 }
-.contentWrap li img {
-	vertical-align:middle;
-	margin-left:100px;
+.link p {
+	line-height:40px;
+	top:0;
+}
+.link img {
+	top:50%;
+}
+.link a p {
+	color:black;
+}
+
+/* Logos */
+
+.asgca_link img {
+	margin-top:-40px;
+	margin-left:450px;
+}
+.gcsaa img {
+	margin-top:-30px;
+	margin-left:550px;
+}
+.gcbaa img {
+	margin-top:-60px;
+	margin-left:350px;
+}
+.usga img {
+	margin-top:-30px;
+	margin-left:450px;
+}
+.usga {
+	margin-bottom:20px;
+}
+.golfdigest img {
+	margin-top:-15px;
+	margin-left:180px;
+}
+.golfmagazine img {
+	margin-top:-20px;
+	margin-left:280px;
+}
+.golfdotcom img {
+	margin-top:-15px;
+	margin-left:180px;
+}
+.golfweek img {
+	margin-top:-20px;
+	margin-left:330px;
+}
+.linksmagazine img {
+	margin-top:-20px;
+	margin-left:180px;
+}
+.gci img {
+	margin-top:-30px;
+	margin-left:380px;
+}
+.gca img {
+	margin-top:-15px;
+	margin-left:180px;
+}
+.gca {
+	margin-bottom:20px;
+}
+.laa img {
+	margin-top:-50px;
+	margin-left:320px;
+}
+.pga img {
+	margin-top:-40px;
+	margin-left:500px;
+}
+.firsttee img {
+	margin-top:-40px;
+	margin-left:180px;
+}
+.golf2020 img {
+	margin-top:-40px;
+	margin-left:330px;
+}
+.golf2020 {
+	margin-bottom:20px;
 }
