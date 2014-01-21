@@ -29,6 +29,10 @@
 .footWrap {
 	clear:both;
 }
+.img01 img, .img02 img {
+	border:2px solid black;
+	box-shadow:4px 4px 4px rgba(0,0,0,.3);
+}
 
 /* Enlarged */
 
@@ -129,7 +133,7 @@
 	background-color:#60CC93;
 	top:40px;
 	left:50%;
-	margin-left:-180px;
+	margin-left:-140px;
 	z-index:65;
 	box-shadow:10px 10px 4px rgba(0,0,0,.5);
 	padding:10px;
@@ -138,11 +142,11 @@
 }
 .d_slides_p .d_slide_p {
 	position:absolute;
-	width:543px;
+	width:623px;
 	height:800px;
 	top:10px;
 	left:50%;
-	margin-left:-271px;
+	margin-left:-311px;
 	z-index:53;
 	opacity:0;
 }
@@ -150,8 +154,8 @@
 	position:absolute;
 	top:20px;
 	left:50%;
-	margin-left:-281px;
-	width:563px;
+	margin-left:-321px;
+	width:643px;
 	height:820px;
 	background-color:white;
 	z-index:50;

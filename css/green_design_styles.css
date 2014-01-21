@@ -32,6 +32,10 @@
 .contentWrap .img02 p {
 	font-size:.8em;
 }
+.img01 img, .img02 img {
+	border:2px solid black;
+	box-shadow:4px 4px 4px rgba(0,0,0,.3);
+}
 
 /* Enlarged */
 

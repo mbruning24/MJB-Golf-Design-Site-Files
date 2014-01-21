@@ -111,7 +111,7 @@ function imgClickHandler() {
 		var title = "Smokey Links Golf Course",
 		subtitle = "Hickory Springs, MI";
 		rollText = img01Roll;
-		var imgPath = 'images/bunker_design/01_lg.png';
+		var imgPath = 'images/bunker_design/01_xl.png';
 		displayCover_p(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});

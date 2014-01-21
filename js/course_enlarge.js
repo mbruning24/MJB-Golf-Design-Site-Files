@@ -66,25 +66,159 @@ function rolloverHandler() {
 }
 
 function imgClickHandler() {
-	$('.mainImage img').click(function() {
+	//Canyata
+	$('.canyata .mainImage img').click(function() {
+		var title = "Canyata Golf Club",
+		subtitle = "Fairway - 6th Hole";
+		rollText = img01Roll;
+		var imgPath = 'images/courses/canyata/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.canyata .subImage01 img').click(function() {
+		var title = "Canyata Golf Club",
+		subtitle = "Fairway - 7th Hole";
+		rollText = img02Roll;
+		var imgPath = 'images/courses/canyata/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.canyata .subImage02 img').click(function() {
+		var title = "Canyata Golf Club",
+		subtitle = "Green - 8th Hole";
+		rollText = img03Roll;
+		var imgPath = 'images/courses/canyata/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+
+	//CC Peoria
+	$('.cc_peoria .mainImage img').click(function() {
 		var title = "Country Club of Peoria",
 		subtitle = "Fairway - 6th Hole";
 		rollText = img01Roll;
 		var imgPath = 'images/courses/cc_peoria/6_fairway_lg.png';
 		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
 	});
-	$('.subImage01 img').click(function() {
+	$('.cc_peoria .subImage01 img').click(function() {
 		var title = "Country Club of Peoria",
 		subtitle = "Fairway - 7th Hole";
 		rollText = img02Roll;
 		var imgPath = 'images/courses/cc_peoria/7_lg.png';
 		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
 	});
-	$('.subImage02 img').click(function() {
+	$('.cc_peoria .subImage02 img').click(function() {
 		var title = "Country Club of Peoria",
 		subtitle = "Green - 8th Hole";
 		rollText = img03Roll;
 		var imgPath = 'images/courses/cc_peoria/8_lg.png';
 		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	
+	//National
+	$('.national .mainImage img').click(function() {
+		var title = "The National at Eagle Creek",
+		subtitle = "Fairway - 6th Hole";
+		rollText = img01Roll;
+		var imgPath = 'images/courses/national/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.national .subImage01 img').click(function() {
+		var title = "The National at Eagle Creek",
+		subtitle = "Fairway - 7th Hole";
+		rollText = img02Roll;
+		var imgPath = 'images/courses/national/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.national .subImage02 img').click(function() {
+		var title = "The National at Eagle Creek",
+		subtitle = "Green - 8th Hole";
+		rollText = img03Roll;
+		var imgPath = 'images/courses/national/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	
+	//Garland
+	$('.garland .mainImage img').click(function() {
+		var title = "Garland Resort",
+		subtitle = "Fairway - 6th Hole";
+		rollText = img01Roll;
+		var imgPath = 'images/courses/garland/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.garland .subImage01 img').click(function() {
+		var title = "Garland Resort",
+		subtitle = "Fairway - 7th Hole";
+		rollText = img02Roll;
+		var imgPath = 'images/courses/garland/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.garland .subImage02 img').click(function() {
+		var title = "Garland Resort",
+		subtitle = "Green - 8th Hole";
+		rollText = img03Roll;
+		var imgPath = 'images/courses/garland/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	
+	//Jester Park
+	$('.jester_park .mainImage img').click(function() {
+		var title = "Jester Park Golf Course",
+		subtitle = "Fairway - 6th Hole";
+		rollText = img01Roll;
+		var imgPath = 'images/courses/jester_park/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.jester_park .subImage01 img').click(function() {
+		var title = "Jester Park Golf Course",
+		subtitle = "Fairway - 7th Hole";
+		rollText = img02Roll;
+		var imgPath = 'images/courses/jester_park/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.jester_park .subImage02 img').click(function() {
+		var title = "Jester Park Golf Course",
+		subtitle = "Green - 8th Hole";
+		rollText = img03Roll;
+		var imgPath = 'images/courses/jester_park/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	
+	//St. Charles
+	$('.st_charles .mainImage img').click(function() {
+		var title = "St. Charles Country Club",
+		subtitle = "Fairway - 6th Hole";
+		rollText = img01Roll;
+		var imgPath = 'images/courses/st_charles/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.st_charles .subImage01 img').click(function() {
+		var title = "St. Charles Country Club",
+		subtitle = "Fairway - 7th Hole";
+		rollText = img02Roll;
+		var imgPath = 'images/courses/st_charles/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.st_charles .subImage02 img').click(function() {
+		var title = "St. Charles Country Club",
+		subtitle = "Green - 8th Hole";
+		rollText = img03Roll;
+		var imgPath = 'images/courses/st_charles/_xl.png';
+		displayCover(imgPath, title, subtitle);
+		$('html, body').animate({scrollTop:0},400);
 	});
 }

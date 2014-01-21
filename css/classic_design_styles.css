@@ -18,6 +18,10 @@
 	font-size:.8em;
 	text-align:right;
 }
+.img01 img {
+	border:2px solid black;
+	box-shadow:4px 4px 4px rgba(0,0,0,.3);
+}
 
 /* Enlarged */
 

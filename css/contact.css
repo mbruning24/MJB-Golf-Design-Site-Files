@@ -1,0 +1,37 @@
+.contentWrap h1 {
+	font-size:1.5em;
+	clear:both;
+	margin-bottom:20px;
+}
+.contentWrap p {
+	margin-bottom:15px;
+}
+.contentWrap p {
+	font-size:.9em;
+}
+.contentWrap .jotform {
+	width:500px;
+	float:left;
+	margin-bottom:20px;
+}
+.contentWrap .c {
+	width:700px;
+	margin:0 auto;
+	text-align:center;
+}
+.contact_info {
+	width:400px;
+	text-align:right;
+	float:right;
+	margin-top:40px;
+}
+.contact_info p {
+	margin:0;
+}
+.social a {
+	display:inline-block;
+	margin-left:20px;
+}
+.footWrap {
+	clear:both;
+}
