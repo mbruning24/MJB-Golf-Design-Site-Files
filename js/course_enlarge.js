@@ -71,7 +71,7 @@ function imgClickHandler() {
 		var title = "Canyata Golf Club",
 		subtitle = "Fairway - 6th Hole";
 		rollText = img01Roll;
-		var imgPath = 'images/courses/canyata/_xl.png';
+		var imgPath = 'images/courses/canyata/01_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -79,7 +79,7 @@ function imgClickHandler() {
 		var title = "Canyata Golf Club",
 		subtitle = "Fairway - 7th Hole";
 		rollText = img02Roll;
-		var imgPath = 'images/courses/canyata/_xl.png';
+		var imgPath = 'images/courses/canyata/02_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -87,7 +87,7 @@ function imgClickHandler() {
 		var title = "Canyata Golf Club",
 		subtitle = "Green - 8th Hole";
 		rollText = img03Roll;
-		var imgPath = 'images/courses/canyata/_xl.png';
+		var imgPath = 'images/courses/canyata/03_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -97,7 +97,7 @@ function imgClickHandler() {
 		var title = "Country Club of Peoria",
 		subtitle = "Fairway - 6th Hole";
 		rollText = img01Roll;
-		var imgPath = 'images/courses/cc_peoria/6_fairway_lg.png';
+		var imgPath = 'images/courses/cc_peoria/01_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -105,7 +105,7 @@ function imgClickHandler() {
 		var title = "Country Club of Peoria",
 		subtitle = "Fairway - 7th Hole";
 		rollText = img02Roll;
-		var imgPath = 'images/courses/cc_peoria/7_lg.png';
+		var imgPath = 'images/courses/cc_peoria/02_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -113,7 +113,7 @@ function imgClickHandler() {
 		var title = "Country Club of Peoria",
 		subtitle = "Green - 8th Hole";
 		rollText = img03Roll;
-		var imgPath = 'images/courses/cc_peoria/8_lg.png';
+		var imgPath = 'images/courses/cc_peoria/03_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -123,7 +123,7 @@ function imgClickHandler() {
 		var title = "The National at Eagle Creek",
 		subtitle = "Fairway - 6th Hole";
 		rollText = img01Roll;
-		var imgPath = 'images/courses/national/_xl.png';
+		var imgPath = 'images/courses/national/01_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -131,7 +131,7 @@ function imgClickHandler() {
 		var title = "The National at Eagle Creek",
 		subtitle = "Fairway - 7th Hole";
 		rollText = img02Roll;
-		var imgPath = 'images/courses/national/_xl.png';
+		var imgPath = 'images/courses/national/02_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -139,7 +139,7 @@ function imgClickHandler() {
 		var title = "The National at Eagle Creek",
 		subtitle = "Green - 8th Hole";
 		rollText = img03Roll;
-		var imgPath = 'images/courses/national/_xl.png';
+		var imgPath = 'images/courses/national/03_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -149,7 +149,7 @@ function imgClickHandler() {
 		var title = "Garland Resort",
 		subtitle = "Fairway - 6th Hole";
 		rollText = img01Roll;
-		var imgPath = 'images/courses/garland/_xl.png';
+		var imgPath = 'images/courses/garland/01_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -157,7 +157,7 @@ function imgClickHandler() {
 		var title = "Garland Resort",
 		subtitle = "Fairway - 7th Hole";
 		rollText = img02Roll;
-		var imgPath = 'images/courses/garland/_xl.png';
+		var imgPath = 'images/courses/garland/02_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -165,7 +165,7 @@ function imgClickHandler() {
 		var title = "Garland Resort",
 		subtitle = "Green - 8th Hole";
 		rollText = img03Roll;
-		var imgPath = 'images/courses/garland/_xl.png';
+		var imgPath = 'images/courses/garland/03_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -175,7 +175,7 @@ function imgClickHandler() {
 		var title = "Jester Park Golf Course",
 		subtitle = "Fairway - 6th Hole";
 		rollText = img01Roll;
-		var imgPath = 'images/courses/jester_park/_xl.png';
+		var imgPath = 'images/courses/jester_park/01_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -183,7 +183,7 @@ function imgClickHandler() {
 		var title = "Jester Park Golf Course",
 		subtitle = "Fairway - 7th Hole";
 		rollText = img02Roll;
-		var imgPath = 'images/courses/jester_park/_xl.png';
+		var imgPath = 'images/courses/jester_park/02_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -191,7 +191,7 @@ function imgClickHandler() {
 		var title = "Jester Park Golf Course",
 		subtitle = "Green - 8th Hole";
 		rollText = img03Roll;
-		var imgPath = 'images/courses/jester_park/_xl.png';
+		var imgPath = 'images/courses/jester_park/03_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -201,7 +201,7 @@ function imgClickHandler() {
 		var title = "St. Charles Country Club",
 		subtitle = "Fairway - 6th Hole";
 		rollText = img01Roll;
-		var imgPath = 'images/courses/st_charles/_xl.png';
+		var imgPath = 'images/courses/st_charles/01_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -209,7 +209,7 @@ function imgClickHandler() {
 		var title = "St. Charles Country Club",
 		subtitle = "Fairway - 7th Hole";
 		rollText = img02Roll;
-		var imgPath = 'images/courses/st_charles/_xl.png';
+		var imgPath = 'images/courses/st_charles/02_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -217,7 +217,7 @@ function imgClickHandler() {
 		var title = "St. Charles Country Club",
 		subtitle = "Green - 8th Hole";
 		rollText = img03Roll;
-		var imgPath = 'images/courses/st_charles/_xl.png';
+		var imgPath = 'images/courses/st_charles/03_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
