@@ -69,7 +69,7 @@ function imgClickHandler() {
 		var title = "Smokey Links Golf Course",
 		subtitle = "Hickory Springs, MI";
 		rollText = img01Roll;
-		var imgPath = 'images/green_design/01_lg.png';
+		var imgPath = 'images/green_design/01_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
@@ -77,7 +77,7 @@ function imgClickHandler() {
 		var title = "Doorknob Creek Country Club",
 		subtitle = "Wanagetemapoti, WI";
 		rollText = img02Roll;
-		var imgPath = 'images/green_design/02_lg.png';
+		var imgPath = 'images/green_design/02_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});

@@ -119,7 +119,7 @@ function imgClickHandler() {
 		var title = "Doorknob Creek Country Club",
 		subtitle = "Wanagetemapoti, WI";
 		rollText = img02Roll;
-		var imgPath = 'images/bunker_design/02_lg.png';
+		var imgPath = 'images/bunker_design/02_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});

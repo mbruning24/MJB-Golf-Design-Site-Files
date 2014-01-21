@@ -21,10 +21,13 @@
 .contentWrap .img02 {
 	float:left;
 	margin-right:20px;
-	width:300px;
+	width:360px;
 }
 .contentWrap .img02 p {
 	font-size:.8em;
+}
+.footWrap {
+	clear:both;
 }
 
 /* Enlarged */
@@ -35,7 +38,7 @@
 	height:80px;
 	border-radius:10px;
 	background-color:rgba(0,0,0,.5);
-	top:453px;
+	top:548px;
 	left:50%;
 	margin-left:-380px;
 	z-index:60;
@@ -52,7 +55,7 @@
 	background-color:#60CC93;
 	top:40px;
 	left:50%;
-	margin-left:-50px;
+	margin-left:30px;
 	z-index:65;
 	box-shadow:10px 10px 4px rgba(0,0,0,.5);
 	padding:10px;
@@ -68,11 +71,11 @@
 }
 .d_slides .d_slide {
 	position:absolute;
-	width:800;
-	height:543;
+	width:940px;
+	height:638px;
 	top:10px;
 	left:50%;
-	margin-left:-400px;
+	margin-left:-470px;
 	z-index:53;
 	opacity:0;
 }
@@ -89,11 +92,11 @@
 }
 .photoWrap {
 	position:absolute;
-	top:100px;
+	top:30px;
 	left:50%;
-	margin-left:-410px;
-	width:820px;
-	height:563px;
+	margin-left:-480px;
+	width:960px;
+	height:658px;
 	background-color:white;
 	z-index:50;
 }

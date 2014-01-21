@@ -1,0 +1,31 @@
+.contentWrap ul {
+	list-style:disc;
+	margin:0;
+	padding:0 0 0 60px;
+	margin-bottom:20px;
+}
+.contentWrap h1 {
+	font-size:1.8em;
+	margin-bottom:20px;
+}
+.contentWrap p, .contentWrap li {
+	font-size:.85em;
+}
+.contentWrap p {
+	padding:0 30px;
+	margin-bottom:20px;
+}
+.contentWrap li .link {
+	height:40px;
+}
+.contentWrap li .link p {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	line-height:40px;
+	display:inline-block;
+}
+.contentWrap li img {
+	vertical-align:middle;
+	margin-left:100px;
+}
