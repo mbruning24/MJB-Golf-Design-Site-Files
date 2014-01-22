@@ -13,6 +13,7 @@
 </style>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+<script src="js/contact.js"></script>
 <script src="js/navslider.js"></script>
 <script>
 
@@ -61,8 +62,54 @@
 <div class="contentWrap">
 	<h1>Contact</h1>
 	<p class="c">Fill out the form below, or send an email to <a href="mailto:info@mjbgolfdesign.com">info@mjbgolfdesign.com</a> with any questions you may have regarding golf course design, remodeling, or general golf course architecture needs.</p>
-	<div class="jotform">
-		<script type="text/javascript" src="http://form.jotform.us/jsform/40206717561147"></script>
+	<div class="form">
+		<form>
+			<table>
+				<tr>
+					<td>Name:</td>
+					<td id='name'><input type='text' class="form_name" /> *<p style="margin-bottom:0"></p></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td id='email'><input type='text' class="form_email" /> *<p style="margin-bottom:0"></p></td>
+				</tr>
+				<tr>
+					<td>Phone:</td>
+					<td id='phone'><input type='text' class="form_phone1" maxlength="3" /> - <input type='text' class='form_phone2' maxlength='3' /> - <input type='text' class='form_phone3' maxlength='4' /><p style="margin-bottom:0"></p></td>
+				</tr>
+				<tr>
+					<td class='msg'>Message:</td>
+					<td class='ta'><textarea rows=5 cols=40 class='form_message'></textarea> *<p style="margin-bottom:0"></p></td>
+				</tr>
+				<tr>
+					<td colspan=2 class='where'>Where Did you Hear about Michael J. Benkusky, Inc.? *</td>
+				</tr>
+				<tr>
+					<td><input type='radio' name='where' value='word_of_mouth' checked/></td>
+					<td>Word of Mouth</td>
+				</tr>
+				<tr>
+					<td><input type='radio' name='where' value='facebook' /></td>
+					<td>Facebook</td>
+				</tr>
+				<tr>
+					<td><input type='radio' name='where' value='twitter' /></td>
+					<td>Twitter</td>
+				</tr>
+				<tr>
+					<td><input type='radio' name='where' value='print_article' /></td>
+					<td>Print Article: <input type='text' class='print' /></td>
+				</tr>
+				<tr>
+					<td><input type='radio' name='where' value='other' /></td>
+					<td>Other: <input type='text' class='other' /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type='submit' class='form_submit' value='Submit' /></td>
+				</tr>
+			</table>
+		</form>
 	</div>
 	<div class="contact_info">
 		<p>Michael J. Benkusky, Inc. - Golf Course Architecture</p>
