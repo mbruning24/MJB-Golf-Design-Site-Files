@@ -1,6 +1,6 @@
 var string0 = "Rollover to See More Information...",
-img01Roll = "This fine course, built and dedicated in 2007 to master jerky manufacturing robber baron Smokey B. Linkington, has some extraordinary features in its green design. A moderate or expert golfer will not only find the approach shot difficult, but also mind-numbingly irritating due to the constant overwhelming scent of Beef Jerky.",
-img02Roll = "The resident pro at DCCC, Duff McScrangle, was once quoted as saying: 'The 9th green is a lot like my third wife. She's frustrating, challenging, incredibly intimidating, but so satisfying when you finally get it in the hole.' Unlike Duff's wife Marie, however, you have an opportunity to get a sandwich after you're finished.",
+img01Roll = "Siting a green is the most important aspect in golf course design.  When designing a new course, we often site the green first and design back to the tee.  This sets up the hole's strategy.  On existing courses, subtle modifications in the green surrounds can make a hole more inviting.",
+img02Roll = "It is said the putting surfaces are the faces to a golf course.  Each one is different, yet they should stay within a similar style.  Green undulations, like the ones shown above, provide separation to pin placement areas.  However, more subtle contours can create just as much interest in a green.  Developing that style is part of the fun.",
 rollText;
 
 $(function() {
@@ -66,16 +66,16 @@ function rolloverHandler() {
 
 function imgClickHandler() {
 	$('.img01 img').click(function() {
-		var title = "Smokey Links Golf Course",
-		subtitle = "Hickory Springs, MI";
+		var title = "Mattaponi Springs Golf Course",
+		subtitle = "Ruthers Glen, VA";
 		rollText = img01Roll;
 		var imgPath = 'images/green_design/01_xl.png';
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
 	$('.img02 img').click(function() {
-		var title = "Doorknob Creek Country Club",
-		subtitle = "Wanagetemapoti, WI";
+		var title = "Canyata Golf Club",
+		subtitle = "Marshall, IL";
 		rollText = img02Roll;
 		var imgPath = 'images/green_design/02_xl.png';
 		displayCover(imgPath, title, subtitle);

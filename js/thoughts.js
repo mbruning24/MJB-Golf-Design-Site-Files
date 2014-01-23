@@ -1,6 +1,6 @@
 var string0 = "Rollover to See More Information...",
-img01Roll = "Text for 6th hole fairway at Country Club of Peoria - Text for 6th hole fairway at Country Club of Peoria - Text for 6th hole fairway at Country Club of Peoria - Text for 6th hole fairway at Country Club of Peoria - Text for 6th hole fairway at Country Club of Peoria - Text for 6th hole fairway at Country Club of Peoria",
-img02Roll = "Text for 7th hole fairway at Country Club of Peoria - Text for 7th hole fairway at Country Club of Peoria - Text for 7th hole fairway at Country Club of Peoria - Text for 7th hole fairway at Country Club of Peoria - Text for 7th hole fairway at Country Club of Peoria - Text for 7th hole fairway at Country Club of Peoria",
+img01Roll = "Routing a new golf course involves many days on site and many meeting between designer and owner.  This insures that all the projects goals are met before moving on to next phases.  Following the routing, the next phases include final design, construction documents, and bidding.",
+img02Roll = "Golf course master planning has evolved over the past years.  While we still complete full course modifications, today's plans may involve looking at one golf hole, or looking at one aspect of the course, such as bunkers or tees.  In either case, sound planning can help your course complete the project on time and within budget.",
 rollText;
 
 $(function() {
@@ -32,9 +32,7 @@ function coverEvtHandler() {
 	});
 }
 
-function displayCover(imgPath,title,subtitle) {
-	$('.titleBar .title').text(title);
-	$('.titleBar .subtitle').text(subtitle);
+function displayCover(imgPath) {
 	var imgHTML = '<img class="d_slide" style="opacity:1" src="' + imgPath + '" />';
 	$('.d_slides').html(imgHTML);
 	
@@ -67,19 +65,15 @@ function rolloverHandler() {
 function imgClickHandler() {
 	//Thoughts
 	$('.thoughts .img01 img').click(function() {
-		var title = "Canyata Golf Club",
-		subtitle = "Fairway - 6th Hole";
 		rollText = img01Roll;
 		var imgPath = 'images/design_thoughts/01_xl.png';
-		displayCover(imgPath, title, subtitle);
+		displayCover(imgPath);
 		$('html, body').animate({scrollTop:0},400);
 	});
 	$('.thoughts .img02 img').click(function() {
-		var title = "Canyata Golf Club",
-		subtitle = "Fairway - 7th Hole";
 		rollText = img02Roll;
 		var imgPath = 'images/design_thoughts/02_xl.png';
-		displayCover(imgPath, title, subtitle);
+		displayCover(imgPath);
 		$('html, body').animate({scrollTop:0},400);
 	});
 }

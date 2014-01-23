@@ -64,9 +64,9 @@ html {
 
 .buttons {
 	position:absolute;
-	width:140px;
+	width:120px;
 	left:50%;
-	margin-left:-70px;
+	margin-left:-60px;
 	top:586px;
 	z-index:15;
 }

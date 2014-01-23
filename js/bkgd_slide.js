@@ -52,10 +52,8 @@ $(function() {
 			next = $('.slides img:nth-child(4)');
 		} else if ($(this).hasClass('05')) {
 			next = $('.slides img:nth-child(5)');
-		} else if ($(this).hasClass('06')) {
-			next = $('.slides img:nth-child(6)');
 		} else {
-			next = $('.slides img:nth-child(7)');
+			next = $('.slides img:nth-child(6)');
 		}
 		animateOpacityDown(current,1400,$(this),c);
 		animateOpacityUp(next,1400);

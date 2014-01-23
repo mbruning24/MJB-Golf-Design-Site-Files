@@ -1,5 +1,5 @@
 var string0 = "Rollover to See More Information...",
-img01Roll = "This fine course, built and dedicated in 2007 to master jerky manufacturing robber baron Smokey B. Linkington, has some extraordinary features in its green design. A moderate or expert golfer will not only find the approach shot difficult, but also mind-numbingly irritating due to the constant overwhelming scent of Beef Jerky.",
+img01Roll = "I grew up playing on, and working on, the Donald Ross designed Cedar Rapids Country Club.  I then played on the golf team at Perry Maxwell’s Veenker Golf Course at Iowa State.  These experiences allowed me to study the designs of these great architects and carry those tools with me today.",
 rollText;
 
 $(function() {
@@ -65,8 +65,8 @@ function rolloverHandler() {
 
 function imgClickHandler() {
 	$('.img01 img').click(function() {
-		var title = "Smokey Links Golf Course",
-		subtitle = "Hickory Springs, MI";
+		var title = "Cedar Rapids Country Club",
+		subtitle = "Cedar Rapids, IA";
 		rollText = img01Roll;
 		var imgPath = 'images/classic_design/01_xl.png';
 		displayCover(imgPath, title, subtitle);

@@ -1,6 +1,6 @@
 var string0 = "Rollover to See More Information...",
-img01Roll = "This fine course, built and dedicated in 2007 to master jerky manufacturing robber baron Smokey B. Linkington, has some extraordinary features in its green design. A moderate or expert golfer will not only find the approach shot difficult, but also mind-numbingly irritating due to the constant overwhelming scent of Beef Jerky.",
-img02Roll = "The resident pro at DCCC, Duff McScrangle, was once quoted as saying: 'The 9th green is a lot like my third wife. She's frustrating, challenging, incredibly intimidating, but so satisfying when you finally get it in the hole.' Unlike Duff's wife Marie, however, you have an opportunity to get a sandwich after you're finished.",
+img01Roll = "It is said the golf is like billiards, each shot should set up the next.  Bunkers help to define a golf hole and create that strategy.  In the case above, the bunkers challenge the golfer to make an aggressive play in order to set up the best approach for the next shot.",
+img02Roll = "Ireland or Scotland?  No, this is the sand belt of Australia.  It shows that bunker styles have no boundaries.  Selecting the best style for your course should take into account your site, your clientele, and your maintenance budget.  All these will allow your course to stay relevant with today’s technology.",
 rollText;
 
 $(function() {
@@ -108,16 +108,16 @@ function rolloverHandler() {
 
 function imgClickHandler() {
 	$('.img01 img').click(function() {
-		var title = "Smokey Links Golf Course",
-		subtitle = "Hickory Springs, MI";
+		var title = "Canyata Golf Club",
+		subtitle = "Marshall, IL";
 		rollText = img01Roll;
 		var imgPath = 'images/bunker_design/01_xl.png';
 		displayCover_p(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
 	$('.img02 img').click(function() {
-		var title = "Doorknob Creek Country Club",
-		subtitle = "Wanagetemapoti, WI";
+		var title = "New South Wales Golf Club",
+		subtitle = "Sydney, Australia";
 		rollText = img02Roll;
 		var imgPath = 'images/bunker_design/02_xl.png';
 		displayCover(imgPath, title, subtitle);
