@@ -83,8 +83,3 @@
 .form input.print, .form input.other {
 	width:200px;
 }
-.form input.form_submit {
-	width:100px;
-	font-size:2em;
-	padding:10px;
-}

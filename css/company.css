@@ -5,6 +5,7 @@
 }
 .img01 img {
 	border:2px solid black;
+	box-shadow:4px 4px 4px rgba(0,0,0,.5);
 }
 .contentWrap h1 {
 	font-size:1.6em;

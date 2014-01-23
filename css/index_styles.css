@@ -172,7 +172,7 @@ ul.navRight {
 	background-color:rgba(255,255,255,.9);
 	box-shadow:2px 0 4px rgba(0,0,0,.5), -2px 0 4px rgba(0,0,0,.5);
 }
-a[href="design_thoughts.html"] li, a[href="st_charles.html"] li, a[href="green_design.html"] li,
+a[href="design_thoughts.html"] li, a[href="st_charles.html"] li, a[href="classic_design.html"] li,
 .s1 ul, .drop1, .drop2 {
 	border-radius:0 0 10px 10px;
 }

@@ -34,7 +34,7 @@ function validateContactFormAndSend() {
 		invalid('.form_message','.ta p','Please enter a message');
 		errors += 1;
 	}
-	if (phone == '' || !(/^[0-9]{10}$/.test(phone))) {
+	if (phone != '' && !(/^[0-9]{10}$/.test(phone))) {
 		invalidPhone();
 		errors += 1
 	}

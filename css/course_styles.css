@@ -1,25 +1,9 @@
 /* Enlarged */
 
-.infoRollover {
-	position:absolute;
-	width:100px;
-	height:80px;
-	border-radius:10px;
-	background-color:rgba(0,0,0,.5);
-	top:548px;
-	left:50%;
-	margin-left:-380px;
-	z-index:60;
-	padding:10px;
-}
-.infoRollover .info {
-	color:white;
-	font-size:.8em;
-}
 .titleBar {
 	position:absolute;
 	width:500px;
-	height:80px;
+	height:85px;
 	background-color:#60CC93;
 	top:40px;
 	left:50%;
@@ -32,6 +16,7 @@
 }
 .title, .subtitle {
 	color:white;
+	padding-top:5px;
 }
 .title {
 	line-height:100%;

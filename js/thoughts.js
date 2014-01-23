@@ -82,22 +82,4 @@ function imgClickHandler() {
 		displayCover(imgPath, title, subtitle);
 		$('html, body').animate({scrollTop:0},400);
 	});
-
-	//Process
-	$('.process .img01 img').click(function() {
-		var title = "Country Club of Peoria",
-		subtitle = "Fairway - 6th Hole";
-		rollText = img01Roll;
-		var imgPath = 'images/design_process/01_xl.png';
-		displayCover(imgPath, title, subtitle);
-		$('html, body').animate({scrollTop:0},400);
-	});
-	$('.process .img02 img').click(function() {
-		var title = "Country Club of Peoria",
-		subtitle = "Fairway - 7th Hole";
-		rollText = img02Roll;
-		var imgPath = 'images/design_process/02_xl.png';
-		displayCover(imgPath, title, subtitle);
-		$('html, body').animate({scrollTop:0},400);
-	});
 }
