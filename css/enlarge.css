@@ -1,40 +1,4 @@
-.contentWrap h1 {
-	font-size:1.5em;
-	clear:both;
-	margin-bottom:20px;
-}
-.contentWrap p, .contentWrap h3 {
-	margin-bottom:15px;
-}
-.contentWrap p {
-	font-size:.9em;
-}
-.contentWrap .img01 {
-	float:right;
-	margin-left:20px;
-	width:300px;
-}
-.contentWrap .img01 p {
-	font-size:.8em;
-	text-align:right;
-}
-.contentWrap .img02 {
-	float:left;
-	margin-right:20px;
-	width:360px;
-	margin-bottom:20px;
-}
-.contentWrap .img02 p {
-	font-size:.8em;
-}
-.footWrap {
-	clear:both;
-}
-.img01 img, .img02 img {
-	border:2px solid black;
-	box-shadow:4px 4px 4px rgba(0,0,0,.3);
-}
-
+/* Consolidated CSS Photo Enlarge */
 
 /* Enlarged */
 
@@ -161,4 +125,47 @@
 	height:820px;
 	background-color:white;
 	z-index:50;
+}
+
+/* Controls panel for process page */
+
+.infoRollover .controls .dontShow {
+	display:none;
+}
+.infoRollover .controls {
+	position:absolute;
+	top:80px;
+	left:50%;
+	width:150px;
+	margin-left:-75px;
+	padding:5px 10px;
+	background-color:rgba(0,0,0,.5);
+	border-radius: 0 0 10px 10px;
+}
+.infoRollover .controls p {
+	display:inline-block;
+	color:white;
+}
+.controls p:nth-of-type(2) {
+	float:right;
+}
+.process .infoRollover {
+	position:relative;
+	top:528px;
+	width:760px;
+}
+
+/* Thoughts body background increase alpha */
+
+.thoughtsBody .infoRollover {
+	background-color:rgba(0,0,0,.75);
+}
+
+/* Course Body modifications */
+
+.courseBody .titleBar {
+	height:85px;
+}
+.courseBody .title, .courseBody .subtitle {
+	padding-top:5px;
 }

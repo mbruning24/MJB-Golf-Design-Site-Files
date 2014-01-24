@@ -1,0 +1,727 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2em;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+/* Alternate styles for mjbgolfdesign.com */
+
+* {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	background:#000 url(../images/slides/canyata_big_fade.png) no-repeat top center;
+}
+
+body {
+	width:1050px;
+	min-width:1050px;
+	margin:0 auto;
+	background-color:white;
+	box-shadow:10px 0 10px rgba(0,0,0,.5), -10px 0 10px rgba(0,0,0,.5);
+}
+.headWrap {
+	height:200px;
+	margin:0 auto;
+	position:relative;
+	background:url(../images/header_1050x220.png) no-repeat top center;
+	width:1050px;
+	min-width:1050px;
+}
+.logo {
+	position:absolute;
+	top:0;
+	left:50%;
+	margin:10px 0 0 -150px;
+	width:300px;
+	height:150px;
+	background-image:url(../images/logo_head.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.navLeft, .navRight {
+	width:400px;
+}
+.navWrap ul li {
+	display:inline-block;
+	width:130px;
+	line-height:40px;
+	text-align:center;
+}
+.d1, .d2 {
+	display:inline-block;
+	width:130px;
+	line-height:40px;
+	text-align:center;
+}
+.navWrap ul {
+	margin:0;
+	padding:0;
+}
+ul.navLeft {
+	position:absolute;
+	top:40px;
+	left:50%;
+	margin-left:-450px;
+}
+ul.navRight {
+	position:absolute;
+	top:40px;
+	left:50%;
+	margin-left:50px;
+}
+.navWrap ul ul, .navWrap ul ul ul {
+	display:none;
+}
+.navWrap ul ul li {
+	display:block;
+}
+.navWrap a {
+	text-decoration:none;
+	color:black;
+}
+.drop1, .drop2 {
+	position:absolute;
+}
+.navLeft .d1 .s1 ul {
+	position:absolute;
+	top:0;
+	left:100%;
+}
+.navLeft .d1 .s1 ul li {
+	width:215px;
+	text-align:left;
+	padding-left:10px;
+}
+.navLeft .d1 ul li:hover, .navLeft .d1 .s1 ul li:hover, .navRight .d2 ul li:hover {
+	box-shadow:2px 2px 4px rgba(0,0,0,.3), -2px -2px 4px rgba(0,0,0,.3);
+}
+.navLeft .d1 ul, .navRight .d2 ul {
+	border-left:1px solid black;
+	border-right:1px solid black;
+	background-color:rgba(255,255,255,.9);
+	box-shadow:2px 0 4px rgba(0,0,0,.5), -2px 0 4px rgba(0,0,0,.5);
+}
+a[href="design_thoughts.html"] li, a[href="st_charles.html"] li, a[href="classic_design.html"] li,
+.s1 ul, .drop1, .drop2 {
+	border-radius:0 0 10px 10px;
+}
+.drop1 #d {
+	border-radius:0;
+}
+
+.contentWrap {
+	width:960px;
+	margin:0 auto;
+	padding:20px 0;
+}
+
+/* Footer Area Styles */
+
+.footWrap {
+	width:960px;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+	/* ASGCA styles */
+	
+	.asgca {
+		float:left;
+		text-align:center;
+		font-size:.75em;
+	}
+	
+	/* Address Styles */
+	
+	.address {
+		padding:20px 0 0 0;
+		float:right;
+		text-align:right;
+		font-size:.9em;
+		line-height:115%;
+	}
+	
+	/* Sitemap styles */
+	
+	.sitemap {
+		clear:both;
+		padding:40px 0;
+		margin:0 auto;
+		width:700px;
+	}
+	.sitemap ul {
+		list-style:none;
+		padding:0;
+		margin:0;
+		text-align:center;
+	}
+	.sitemap li {
+		display:inline;
+		text-align:center;
+	}
+	.sitemap li a {
+		font-size:.75em;
+		display:inline-block;
+		text-decoration:none;
+		width:auto;
+		margin:0 20px;
+		color:black;
+	}
+	
+/* INDIVIDUAL PAGES, CONSOLIDATION */
+
+.contentWrap h1 {
+	font-size:1.5em;
+	clear:both;
+	margin-bottom:20px;
+} /* design(3), contact, creativity, thoughts, proc cont */
+.companyBody .contentWrap h1 {
+	font-size:1.6em;
+	margin-bottom:35px;
+	clear:none;
+} /* Company */
+.resourcesBody .contentWrap h1 {
+	font-size:1.8em;
+	margin-bottom:20px;
+} /* Resources */
+
+.companyBody .contentWrap p {
+	font-size:.85em;
+	margin-bottom:15px;
+	padding:0 30px;
+}
+.contentWrap p {
+	font-size:.9em;
+	margin-bottom:15px;
+}
+.resourcesBody .contentWrap p {
+	padding:0 30px;
+	margin-bottom:20px;
+	font-size:.85em;
+}
+
+.contentWrap h3 {
+	margin-bottom:15px;
+}
+.course .contentWrap h3 {
+	margin-bottom:0;
+}
+.course .courseInfo p {
+	margin-bottom:10px;
+}
+
+.footWrap {
+	clear:both;
+}
+
+.companyBody .contentWrap ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	padding-left:40px;
+	margin-bottom:25px;
+	font-size:.85em;
+}
+.statement {
+	clear:both;
+	width:750px;
+	margin:30px auto 25px auto;
+}
+.statement img {
+	float:right;
+	margin-right:30px;
+	margin-top:-25px;
+}
+.process .contentWrap ul, .thoughts .contentWrap ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-bottom:15px;
+	font-size:.9em;
+}
+.img01 img, .img02 img, .img03 img {
+	border:2px solid black;
+	box-shadow:4px 4px 4px rgba(0,0,0,.3);
+}
+
+/* Individual Course Pages */
+
+	/* Images Styles */
+
+.imageWrap {
+	width:960px;
+	margin:-20px auto 20px auto;
+}
+.mainImage {
+	float:left;
+	width:626px;
+}
+.mainImage img {
+	border:2px solid black;
+}
+.subImage01, .subImage02 {
+	width:314px;
+	margin-left:646px;
+	text-align:right;
+}
+.subImage01 img, .subImage02 img {
+	border:2px solid black;
+}
+.mainImage p, .subImage01 p, .subImage02 p {
+	line-height:17px;
+	font-size:.75em;
+	margin-bottom:0;
+}
+.mainImage img, .subImage01 img, .subImage02 img {
+	box-shadow:4px 4px 4px rgba(0,0,0,.3);
+}
+
+	/* Data and Info Styles */
+
+.courseData {
+	float:right;
+	width:314px;
+}
+.courseData h1 {
+	margin-bottom:10px;
+	font-size:1.3em;
+}
+.courseData ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.courseData ul li {
+	margin-bottom:10px;
+	font-size:.9em;
+}
+.courseInfo {
+	margin-right:334px;
+}
+.courseBody .contentWrap .courseInfo h1 {
+	font-size:2.2em;
+	margin-bottom:8px;
+	clear:none;
+}
+.courseInfo p {
+	margin-bottom:15px;
+	font-size:.9em;
+}
+.courseInfo .location {
+	font-size:.85em;
+	margin-bottom:20px;
+}
+
+/* Design.html */
+
+/* Design Page Styles */
+
+.thumbnailDisclaimer {
+	text-align:center;
+	width:400px;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.thumbnailDisclaimer p {
+	font-size:.9em;
+}
+
+.thumbnails div {
+	display:inline-block;
+	width:160px;
+	height:115px;
+}
+
+.tn_01 {
+	background-image:url(../images/design/tn01_sm.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.tn_02 {
+	background-image:url(../images/design/tn02_sm.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.tn_03 {
+	background-image:url(../images/design/tn03_sm.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.tn_04 {
+	background-image:url(../images/design/tn04_sm.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.tn_05 {
+	background-image:url(../images/design/tn05_sm.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.tn_06 {
+	background-image:url(../images/design/tn06_sm.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.tn_02, .tn_03, .tn_04, .tn_05, .tn_06 {
+	margin-left:-5px;
+}
+.course .courseInfo {
+	margin-right:0;
+}
+.courses {
+	width:800px;
+	margin:0 auto;
+	margin-top:40px;
+}
+.courses table {
+	margin-bottom:30px;
+}
+.courses table td {
+	width:266px;
+	padding:5px 0;
+}
+.courses table td h3 {
+	font-weight:200;
+	font-size:1em;
+}
+.courses table td p {
+	font-size:.8em;
+}
+.courses h1 {
+	text-decoration:underline;
+	font-size:1.3em;
+	margin-bottom:15px;
+}
+
+.tn_title {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.tn_title li {
+	display:inline-block;
+	font-size:.8em;
+	margin-left:-5px;
+	width:160px;
+	padding:0 10px;
+	vertical-align:text-top;
+}
+.tn_title li:first-child {
+	margin-left:0;
+}
+.tn_title li h3 {
+	line-height:110%;
+}
+
+/* Contact Page */
+
+.contentWrap .jotform {
+	width:500px;
+	float:left;
+	margin-bottom:20px;
+}
+.contentWrap .c {
+	width:700px;
+	margin:0 auto;
+	text-align:center;
+}
+.contact_info {
+	width:400px;
+	text-align:right;
+	float:right;
+	margin-top:40px;
+}
+.contact_info p {
+	margin:0;
+}
+.social a {
+	display:inline-block;
+	margin-left:20px;
+}
+/* form styles */
+
+.form {
+	width:500px;
+	float:left;
+	margin-bottom:40px;
+	margin-top:40px;
+	font-size:.9em;
+}
+.form tr td:first-child {
+	width:150px;
+	text-align:right;
+	padding-right:10px;
+}
+.form tr td.where {
+	text-align:center;
+	padding:10px 0;
+}
+.form tr td.msg {
+	vertical-align:middle;
+}
+.form input[type='text'], .form textarea {
+	border-radius:5px;
+	padding:5px;
+}
+.form tr td {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.form_phone1, .form_phone2, .form_phone3 {
+	width:50px;
+}
+.form_phone1 {
+	margin-left:2px;
+}
+.form textarea {
+	resize:vertical;
+}
+.form .ta {
+	vertical-align:top;
+}
+.form input.form_name, .form input.form_email {
+	width:312px;
+}
+.form input.print, .form input.other {
+	width:200px;
+}
+
+/* Resources Page */
+
+.resourcesBody .contentWrap ul {
+	list-style:disc;
+	margin:0;
+	padding:0 0 0 60px;
+	margin-bottom:20px;
+}
+.link {
+	margin-left:50px;
+	height:40px;
+	position:relative;
+}
+.link p, .link img {
+	display:inline-block;
+	vertical-align:middle;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+.link p {
+	line-height:40px;
+	top:0;
+}
+.link img {
+	top:50%;
+}
+.link a p {
+	color:black;
+}
+
+/* Logos */
+
+.asgca_link img {
+	margin-top:-40px;
+	margin-left:450px;
+}
+.gcsaa img {
+	margin-top:-30px;
+	margin-left:550px;
+}
+.gcbaa img {
+	margin-top:-60px;
+	margin-left:350px;
+}
+.usga img {
+	margin-top:-30px;
+	margin-left:450px;
+}
+.usga {
+	margin-bottom:20px;
+}
+.golfdigest img {
+	margin-top:-15px;
+	margin-left:180px;
+}
+.golfmagazine img {
+	margin-top:-20px;
+	margin-left:350px;
+}
+.golfweek img {
+	margin-top:-20px;
+	margin-left:180px;
+}
+.linksmagazine img {
+	margin-top:-20px;
+	margin-left:380px;
+}
+.gci img {
+	margin-top:-30px;
+	margin-left:180px;
+}
+.gca img {
+	margin-top:-15px;
+	margin-left:280px;
+}
+.gca {
+	margin-bottom:20px;
+}
+.laa img {
+	margin-top:-50px;
+	margin-left:320px;
+}
+.pga img {
+	margin-top:-40px;
+	margin-left:500px;
+}
+.firsttee img {
+	margin-top:-40px;
+	margin-left:180px;
+}
+.golf2020 img {
+	margin-top:-40px;
+	margin-left:330px;
+}
+.golf2020 {
+	margin-bottom:20px;
+}
+
+/* rest of the design styles */
+
+.green .contentWrap .img01 {
+	float:right;
+	margin-left:20px;
+	width:360px;
+}
+.green .contentWrap .img01 p {
+	font-size:.8em;
+	text-align:right;
+}
+.green .contentWrap p:nth-of-type(2) {
+	margin-right:370px;
+}
+.green .contentWrap .img02 {
+	float:left;
+	margin-right:20px;
+	width:360px;
+}
+.green .contentWrap p:nth-of-type(5) {
+	margin-left:370px;
+}
+.green .contentWrap .img02 p {
+	font-size:.8em;
+}
+.bunker .contentWrap .img01 {
+	float:right;
+	margin-left:20px;
+	width:300px;
+}
+.bunker .contentWrap .img01 p {
+	font-size:.8em;
+	text-align:right;
+}
+.bunker .contentWrap .img02 {
+	float:left;
+	margin-right:20px;
+	width:360px;
+	margin-bottom:20px;
+}
+.bunker .contentWrap .img02 p {
+	font-size:.8em;
+}
+.classic .contentWrap .img01 {
+	float:right;
+	margin-left:20px;
+	width:450px;
+}
+.classic .contentWrap .img01 p {
+	font-size:.8em;
+	text-align:right;
+}
+.companyBody .contentWrap .img01 {
+	float:right;
+	width:184px;
+	margin-left:20px;
+}
+.process .contentWrap .img01 {
+	width:350px;
+	float:left;
+	margin-right:24px;
+}
+.process .contentWrap .img02 {
+	width:350px;
+	float:right;
+	clear:both;
+	margin-left:20px;
+}
+.process .contentWrap p:nth-of-type(7) {
+	margin-right:374px;
+}
+.process .img02 {
+	text-align:right;
+}
+.thoughtsBody .contentWrap .img01 {
+	width:350px;
+	float:left;
+	margin-right:24px;
+}
+.thoughtsBody .contentWrap .img02 {
+	width:350px;
+	float:right;
+	clear:both;
+	margin-left:20px;
+}
+.thoughtsBody .img02 {
+	text-align:right;
+}
+.create .contentWrap .img01, .contentWrap .img02, .contentWrap .img03 {
+	width:350px;
+}
+.create .img01, .create .img03 {
+	float:right;
+	margin-left:20px;
+}
+.create .img03 {
+	clear:both;
+	margin-top:-80px;
+}
+.create .img02 {
+	float:left;
+	margin-right:20px;
+}
+.create .contentWrap .img01 p, .create .contentWrap .img03 p {
+	font-size:.8em;
+	text-align:right;
+}
+.create .contentWrap p:nth-of-type(3) {
+	margin-bottom:120px;
+}
