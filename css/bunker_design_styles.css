@@ -22,6 +22,7 @@
 	float:left;
 	margin-right:20px;
 	width:360px;
+	margin-bottom:20px;
 }
 .contentWrap .img02 p {
 	font-size:.8em;
@@ -33,6 +34,7 @@
 	border:2px solid black;
 	box-shadow:4px 4px 4px rgba(0,0,0,.3);
 }
+
 
 /* Enlarged */
 

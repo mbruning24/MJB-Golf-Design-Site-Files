@@ -103,6 +103,7 @@
 }
 .courseData ul li {
 	margin-bottom:10px;
+	font-size:.9em;
 }
 .courseInfo {
 	margin-right:334px;
@@ -113,6 +114,7 @@
 }
 .courseInfo p {
 	margin-bottom:15px;
+	font-size:.9em;
 }
 .courseInfo .location {
 	font-size:.85em;

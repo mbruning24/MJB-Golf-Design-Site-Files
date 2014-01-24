@@ -1,6 +1,9 @@
 var string0 = "Rollover to See More Information...",
-img01Roll = "I grew up playing on, and working on, the Donald Ross designed Cedar Rapids Country Club.  I then played on the golf team at Perry Maxwell's Veenker Golf Course at Iowa State.  These experiences allowed me to study the designs of these great architects and carry those tools with me today.",
-rollText;
+img01Roll = "Greens are the soul of a golf course.  They provide a climatic finish to the golf hole.  Therefore, you want your greens to say something about your course. For More Information on Green Design, ",
+img02Roll = "Classic golf courses are our link to the past.  Many courses choose to revert back to the day it was formed, many choose to move ahead with today's technology.  In either case, you need to make a commitment to your course and carry it throughout the design. For More Information on Classic Design, ",
+img03Roll = "Bunkers are the eye candy on the golf course and your style says a lot about your type of course.  So whether a bunker is there for strategy, intimidation, or beauty a bunker should be there for a purpose. For More Information on Bunker Design, ",
+rollText,
+rollLink;
 
 $(function() {
 
@@ -31,9 +34,7 @@ function coverEvtHandler() {
 	});
 }
 
-function displayCover(imgPath,title,subtitle) {
-	$('.titleBar .title').text(title);
-	$('.titleBar .subtitle').text(subtitle);
+function displayCover(imgPath) {
 	var imgHTML = '<img class="d_slide" style="opacity:1" src="' + imgPath + '" />';
 	$('.d_slides').html(imgHTML);
 	
@@ -50,6 +51,7 @@ function rolloverHandler() {
 		$(this).find('.info').animate({'opacity':'0'},400,function() {
 			$('.infoRollover').animate({'width':'760px'},400,function() {
 				$(this).find('.info').text(rollText);
+				$(this).find('.info').append('<a style="color:white;" href="' + rollLink + '">click here.</a>');
 				$(this).find('.info').animate({'opacity':'1'});
 			}); // end width animate
 		}); // end text animate
@@ -65,11 +67,24 @@ function rolloverHandler() {
 
 function imgClickHandler() {
 	$('.img01 img').click(function() {
-		var title = "Cedar Rapids Country Club",
-		subtitle = "Cedar Rapids, IA";
 		rollText = img01Roll;
-		var imgPath = 'images/classic_design/01_xl.png';
-		displayCover(imgPath, title, subtitle);
+		rollLink = 'green_design.html';
+		var imgPath = 'images/creativity/01_xl.png';
+		displayCover(imgPath);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.img02 img').click(function() {
+		rollText = img02Roll;
+		rollLink = 'classic_design.html';
+		var imgPath = 'images/creativity/02_xl.png';
+		displayCover(imgPath);
+		$('html, body').animate({scrollTop:0},400);
+	});
+	$('.img03 img').click(function() {
+		rollText = img03Roll;
+		rollLink = 'bunker_design.html';
+		var imgPath = 'images/creativity/03_xl.png';
+		displayCover(imgPath);
 		$('html, body').animate({scrollTop:0},400);
 	});
 }

@@ -1,6 +1,6 @@
 var string0 = "Rollover to See More Information...",
 img01Roll = "It is said the golf is like billiards, each shot should set up the next.  Bunkers help to define a golf hole and create that strategy.  In the case above, the bunkers challenge the golfer to make an aggressive play in order to set up the best approach for the next shot.",
-img02Roll = "Ireland or Scotland?  No, this is the sand belt of Australia.  It shows that bunker styles have no boundaries.  Selecting the best style for your course should take into account your site, your clientele, and your maintenance budget.  All these will allow your course to stay relevant with today’s technology.",
+img02Roll = "Ireland or Scotland?  No, this is the sand belt of Australia.  It shows that bunker styles have no boundaries.  Selecting the best style for your course should take into account your site, your clientele, and your maintenance budget.  All these will allow your course to stay relevant with today's technology.",
 rollText;
 
 $(function() {
