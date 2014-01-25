@@ -2,6 +2,23 @@
 
 /* Enlarged */
 
+.warning {
+	position:fixed;
+	background-color:rgba(0,0,0,.75);
+	text-align:center;
+	width:150px;
+	left:50%;
+	margin-left:-75px;
+	font-size:.8em;
+	line-height:30px;
+	z-index:1000;
+	border-radius:0 0 10px 10px;
+	top:0;
+}
+.warning p {
+	color:white;
+}
+
 .infoRollover {
 	position:absolute;
 	width:100px;
@@ -142,11 +159,11 @@
 	background-color:rgba(0,0,0,.5);
 	border-radius: 0 0 10px 10px;
 }
-.infoRollover .controls p {
+.infoRollover .controls a {
 	display:inline-block;
 	color:white;
 }
-.controls p:nth-of-type(2) {
+.controls a:nth-of-type(2) {
 	float:right;
 }
 .process .infoRollover {
@@ -155,9 +172,9 @@
 	width:760px;
 }
 
-/* Thoughts body background increase alpha */
+/* Thoughts body and process body background increase alpha */
 
-.thoughtsBody .infoRollover {
+.thoughtsBody .infoRollover, .process infoRollover {
 	background-color:rgba(0,0,0,.75);
 }
 

@@ -13,6 +13,8 @@ function keyPressHandler() {
 			$('.photoWrap').fadeOut(300);
 			$('.cover').addClass("dontShow");
 			$('.photoWrap').addClass("dontShow");
+			$('.warning').fadeOut(300);
+			$('.warning').addClass('dontShow');
 		}
 	});
 }
@@ -23,6 +25,8 @@ function coverEvtHandler() {
 		$('.photoWrap').fadeOut(300);
 		$('.cover').addClass("dontShow");
 		$('.photoWrap').addClass("dontShow");
+		$('.warning').fadeOut(300);
+		$('.warning').addClass('dontShow');
 	});
 }
 
@@ -37,6 +41,8 @@ function displayCover(imgPath,title,subtitle) {
 		$('.photoWrap').fadeIn(300);
 		$('.cover').removeClass("dontShow");
 		$('.photoWrap').removeClass("dontShow");
+		$('.warning').fadeIn(300);
+		$('.warning').removeClass('dontShow');
 	}
 }
 

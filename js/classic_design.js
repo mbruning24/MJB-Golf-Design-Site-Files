@@ -18,6 +18,8 @@ function keyPressHandler() {
 			$('.photoWrap').fadeOut(300);
 			$('.cover').addClass("dontShow");
 			$('.photoWrap').addClass("dontShow");
+			$('.warning').fadeOut(300);
+			$('.warning').addClass('dontShow');
 		}
 	});
 }
@@ -28,12 +30,12 @@ function coverEvtHandler() {
 		$('.photoWrap').fadeOut(300);
 		$('.cover').addClass("dontShow");
 		$('.photoWrap').addClass("dontShow");
+		$('.warning').fadeOut(300);
+		$('.warning').addClass('dontShow');
 	});
 }
 
 function displayCover(imgPath,title,subtitle) {
-	$('.titleBar .title').text(title);
-	$('.titleBar .subtitle').text(subtitle);
 	var imgHTML = '<img class="d_slide" style="opacity:1" src="' + imgPath + '" />';
 	$('.d_slides').html(imgHTML);
 	
@@ -42,6 +44,8 @@ function displayCover(imgPath,title,subtitle) {
 		$('.photoWrap').fadeIn(300);
 		$('.cover').removeClass("dontShow");
 		$('.photoWrap').removeClass("dontShow");
+		$('.warning').fadeIn(300);
+		$('.warning').removeClass('dontShow');
 	}
 }
 
@@ -65,11 +69,9 @@ function rolloverHandler() {
 
 function imgClickHandler() {
 	$('.img01 img').click(function() {
-		var title = "Cedar Rapids Country Club",
-		subtitle = "Cedar Rapids, IA";
 		rollText = img01Roll;
 		var imgPath = 'images/classic_design/01_xl.png';
-		displayCover(imgPath, title, subtitle);
+		displayCover(imgPath);
 		$('html, body').animate({scrollTop:0},400);
 	});
 }

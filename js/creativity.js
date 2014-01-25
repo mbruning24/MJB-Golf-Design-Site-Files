@@ -21,6 +21,8 @@ function keyPressHandler() {
 			$('.photoWrap').fadeOut(300);
 			$('.cover').addClass("dontShow");
 			$('.photoWrap').addClass("dontShow");
+			$('.warning').fadeOut(300);
+			$('.warning').addClass('dontShow');
 		}
 	});
 }
@@ -31,6 +33,8 @@ function coverEvtHandler() {
 		$('.photoWrap').fadeOut(300);
 		$('.cover').addClass("dontShow");
 		$('.photoWrap').addClass("dontShow");
+		$('.warning').fadeOut(300);
+		$('.warning').addClass('dontShow');
 	});
 }
 
@@ -43,6 +47,8 @@ function displayCover(imgPath) {
 		$('.photoWrap').fadeIn(300);
 		$('.cover').removeClass("dontShow");
 		$('.photoWrap').removeClass("dontShow");
+		$('.warning').fadeIn(300);
+		$('.warning').removeClass('dontShow');
 	}
 }
 
@@ -51,7 +57,7 @@ function rolloverHandler() {
 		$(this).find('.info').animate({'opacity':'0'},400,function() {
 			$('.infoRollover').animate({'width':'760px'},400,function() {
 				$(this).find('.info').text(rollText);
-				$(this).find('.info').append('<a style="color:white;" href="' + rollLink + '">click here.</a>');
+				$(this).find('.info').append('<a style="color:white;" href="' + rollLink + '">Click Here.</a>');
 				$(this).find('.info').animate({'opacity':'1'});
 			}); // end width animate
 		}); // end text animate

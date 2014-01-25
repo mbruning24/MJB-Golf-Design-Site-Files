@@ -19,12 +19,16 @@ function keyPressHandler() {
 			$('.photoWrap').fadeOut(300);
 			$('.cover').addClass("dontShow");
 			$('.photoWrap').addClass("dontShow");
+			$('.warning').fadeOut(300);
+			$('.warning').addClass('dontShow');
 		}
 		if (event.which == 27 && !$('.cover').hasClass("dontShow") && !$('.photoWrap_p').hasClass("dontShow")) {
 			$('.cover').fadeOut(300);
 			$('.photoWrap_p').fadeOut(300);
 			$('.cover').addClass("dontShow");
 			$('.photoWrap_p').addClass("dontShow");
+			$('.warning').fadeOut(300);
+			$('.warning').addClass('dontShow');
 		}
 	});
 }
@@ -32,6 +36,9 @@ function keyPressHandler() {
 function coverEvtHandler() {
 	$('.cover').click(function() {
 		$('.cover').fadeOut(300);
+		$('.cover').addClass("dontShow");
+		$('.warning').fadeOut(300);
+		$('.warning').addClass('dontShow');
 		if (!$('.photoWrap').hasClass('dontShow')) {
 			$('.photoWrap').fadeOut(300);
 			$('.photoWrap').addClass('dontShow');
@@ -40,13 +47,10 @@ function coverEvtHandler() {
 			$('.photoWrap_p').fadeOut(300);
 			$('.photoWrap_p').addClass('dontShow');
 		}
-		$('.cover').addClass("dontShow");
 	});
 }
 
-function displayCover(imgPath,title,subtitle) {
-	$('.titleBar .title').text(title);
-	$('.titleBar .subtitle').text(subtitle);
+function displayCover(imgPath) {
 	var imgHTML = '<img class="d_slide" style="opacity:1" src="' + imgPath + '" />';
 	$('.d_slides').html(imgHTML);
 	
@@ -55,12 +59,12 @@ function displayCover(imgPath,title,subtitle) {
 		$('.photoWrap').fadeIn(300);
 		$('.cover').removeClass("dontShow");
 		$('.photoWrap').removeClass("dontShow");
+		$('.warning').fadeIn(300);
+		$('.warning').removeClass('dontShow');
 	}
 }
 
-function displayCover_p(imgPath,title,subtitle) {
-	$('.titleBar_p .title').text(title);
-	$('.titleBar_p .subtitle').text(subtitle);
+function displayCover_p(imgPath) {
 	var imgHTML = '<img class="d_slide_p" style="opacity:1" src="' + imgPath + '" />';
 	$('.d_slides_p').html(imgHTML);
 	
@@ -69,6 +73,8 @@ function displayCover_p(imgPath,title,subtitle) {
 		$('.photoWrap_p').fadeIn(300);
 		$('.cover').removeClass("dontShow");
 		$('.photoWrap_p').removeClass("dontShow");
+		$('.warning').fadeIn(300);
+		$('.warning').removeClass('dontShow');
 	}
 }
 
@@ -108,19 +114,15 @@ function rolloverHandler() {
 
 function imgClickHandler() {
 	$('.img01 img').click(function() {
-		var title = "Canyata Golf Club",
-		subtitle = "Marshall, IL";
 		rollText = img01Roll;
 		var imgPath = 'images/bunker_design/01_xl.png';
-		displayCover_p(imgPath, title, subtitle);
+		displayCover_p(imgPath);
 		$('html, body').animate({scrollTop:0},400);
 	});
 	$('.img02 img').click(function() {
-		var title = "New South Wales Golf Club",
-		subtitle = "Sydney, Australia";
 		rollText = img02Roll;
 		var imgPath = 'images/bunker_design/02_xl.png';
-		displayCover(imgPath, title, subtitle);
+		displayCover(imgPath);
 		$('html, body').animate({scrollTop:0},400);
 	});
 }
