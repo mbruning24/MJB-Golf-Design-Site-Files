@@ -61,8 +61,6 @@ function validateContactFormAndSend() {
 		}
 	}
 	
-	console.log(name, email, message, phone, where);
-	
 	if (errors == 0) {
 		//ajax call
 		$.ajax({
@@ -77,7 +75,11 @@ function validateContactFormAndSend() {
 			},
 			dataType: 'json',
 			success: function(data) {
-				console.log(data);
+				$('.form').html('\
+				<h1>Thank you for Submitting this Form.</h1>\
+				<p>Your form submission has been received. I will try to get back to you as soon as \
+				possible. Thank you for visiting MJBGolfDesign.com! <a href="index.html">Click Here</a> \
+				to return to the home page.</p>');
 			},
 			error: function() {
 				alert('Error: There seems to be a problem processing the submission form. Please try again in a few minutes. If the problem persists, please send an email to info@mjbgolfdesign.com.');

@@ -1,6 +1,6 @@
 var
 infoArray01 = [
-	'Wrapping up construction.  How do we get to this point?  Putting a project together is about art, commitment, and communication.  The process of getting a sound design in place can involve months of discussion.  In a nutshell, here is how the process can take place.',
+	'Under construction: How do we get to this point?  Putting a project together is about art, commitment, and communication.  The process of getting a sound design in place can involve months of discussion.  In a nutshell, here is how the process can take place.',
 	'With technology today we can call up a course with the use of Google Earth or Bing Maps.  We can even look through past photos to see when changes took place.  Putting together a Site Analysis is a starting point to developing the plan.',
 	'The cornerstone to getting a plan in place is working through the schematic design phase.  This involves multiple concepts and meetings to discuss the ideas and put together a plan that best fits your course and your budget.  It is only after we all agree on a concept that we move to the next phase.',
 	'Once a design is approved we start to create the construction documents.  These plans mark in detail the work to take place.  They are then distributed to the contractor for bidding.  Sound construction documents can help minimize confusion during construction and limit lost time or cost increases.',
