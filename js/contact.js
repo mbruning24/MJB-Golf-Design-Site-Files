@@ -45,7 +45,9 @@ function validateContactFormAndSend() {
 		where = 'Facebook';
 	} else if (radio == 'twitter') {
 		where = 'Twitter';
-	} else if (radio == 'print_article') {
+	} else if (radio == 'linkedin') {
+		where = 'LinkedIn';
+	}else if (radio == 'print_article') {
 		where = 'Print Article: ';
 		if (print == '') {
 			where += 'User had no input';
